@@ -16,9 +16,15 @@
 9. [openssl](http://www.openssl.org)
 
 
-##编译
+##集中编译
 - ` $ bash build.sh build `
 - 目录**release**目录下有**ims**、**acd**、**agentproxy**、**ivr**、**freeswitch**四个目录，每个目录下有独立的可执行程序
+
+##分开编译
+- cd dep\ && bash build.sh
+- cd dep\mysql\ && bash build-5.6.sh
+- cd interface\ && make
+
 
 #tools
 

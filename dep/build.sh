@@ -11,7 +11,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DIR="bgcc boost freeswitch json-c libcurl libxml2 mysql pcre opensips"
+#DIR="bgcc boost freeswitch json-c libcurl libxml2 mysql pcre opensips"
+DIR="bgcc boost json-c libcurl libxml2 pcre"
 
 build()
 {

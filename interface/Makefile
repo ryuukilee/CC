@@ -3,7 +3,8 @@ include Makefile.rule
 OUTPUT_PATH=./output/
 THIRD_PATH=./third/
 
-modules=acd ims ivr ap
+#modules=acd ims ivr ap
+modules=acd ims
 third-modules=json-cpp
 
 all:

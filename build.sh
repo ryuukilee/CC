@@ -14,7 +14,8 @@
 
 ROOT_DIR=`pwd`
 PLAT_BASE=platform
-PLAT_SVR="acd ivr ims agentproxy"
+#PLAT_SVR="acd ivr ims agentproxy"
+PLAT_SVR="acd ims"
 
 DEP_BASE=dep
 
